@@ -1,37 +1,40 @@
 body {
-  background-color: #f9f7fe;
-  font-family: sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 h1 {
-  font-family: sans-serif;
+  font-style: italic;
   text-align: center;
   font-size: 36px;
+  margin-bottom: 0;
 }
 h2 {
   font-size: 28px;
-  margin: 0 0 5px;
+  margin: 0;
 }
 select {
+  background-color: #87faa4;
   font-size: 18px;
   display: block;
   width: 660px;
   margin: 0 auto;
   font-size: 18px;
-  border-radius: 4px;
+  border: none;
+  border-radius: 10px;
   padding: 10px;
 }
 .container {
   width: 600px;
   margin: 0 auto;
-  background: whitesmoke;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
   padding: 30px;
-  box-shadow: rbga(100, 100, 111, 0.2) 0px 7px 29px 0;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0;
 }
 .city {
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
-  padding: 30px 0;
+  margin: 5px 0;
+  padding: 8px;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 .city:last-child {
@@ -52,5 +55,6 @@ select {
 footer {
   font-size: 18px;
   text-align: center;
-  color: rgb(0, 0, 0, 0.7);
+  color: rgb(0, 0, 0, 0.9);
+  margin-top: 30px;
 }
